@@ -20,11 +20,11 @@ public class CreateUserTest extends BaseURL {
     private String accessToken;
     private User user;
 
-    private static Stream<Arguments> userDataWithoutRequiredFields() {
+    private static Stream<Arguments> incorrectDataForCreate() {
         return Stream.of(
-                Arguments.of(new User("", "test1", "testtest")),
-                Arguments.of(new User("test123@mail.ru", "", "testtest")),
-                Arguments.of(new User("test456@mail.ru", "testUser", ""))
+                Arguments.of(new User("", "testtest", "test1")),
+                Arguments.of(new User("test123@mail.ru", "testtest", "")),
+                Arguments.of(new User("test456@mail.ru", "", "testUser"))
         );
     }
 
@@ -62,7 +62,7 @@ public class CreateUserTest extends BaseURL {
     }
 
     @ParameterizedTest
-    @MethodSource("userDataWithoutRequiredFields")
+    @MethodSource("incorrectDataForCreate")
     @DisplayName("Проверка создания пользователя, если не заполнить одно из обязательных полей")
     public void createUserWithoutRequiredFields(User user) {
         Response createResponse = userApi.createUser(user);

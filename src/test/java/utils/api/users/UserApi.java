@@ -4,6 +4,8 @@ import io.qameta.allure.Step;
 import io.restassured.response.Response;;
 import io.restassured.specification.RequestSpecification;
 import utils.pojo.User;
+import utils.pojo.UserCredentials;
+
 import static io.restassured.RestAssured.given;
 
 public class UserApi {
@@ -23,19 +25,20 @@ public class UserApi {
     }
 
     @Step("Авторизация пользователя")
-    public Response loginUser(User user) {
+    public Response loginUser(UserCredentials userCredentials) {
         return given()
                 .spec(spec)
-                .body(user)
+                .body(userCredentials)
                 .when()
                 .post("/auth/login");
     }
 
     @Step("Выход пользователя из системы")
-    public Response logoutUser(User user) {
+    public Response logoutUser(String refreshToken) {
+        String json = "{\"token\": " + refreshToken + "}";
         return given()
                 .spec(spec)
-                .body(user)
+                .body(json)
                 .when()
                 .post("/auth/logout");
     }
@@ -49,27 +52,29 @@ public class UserApi {
     }
 
     @Step("Обновление токена пользователя")
-    public Response refreshToken(User user) {
+    public Response refreshToken(UserCredentials userCredentials) {
         return given()
                 .spec(spec)
-                .body(user)
+                .body(userCredentials)
                 .when()
                 .post("/auth/token");
     }
 
     @Step("Получение данных о пользователе")
-    public Response getDataAboutUser(User user) {
+    public Response getDataAboutUser(String accessToken, User user) {
         return given()
                 .spec(spec)
+                .auth().oauth2(accessToken)
                 .body(user)
                 .when()
                 .get("/auth/user");
     }
 
     @Step("Обновление данных о пользователе")
-    public Response patchDataAboutUser(User user) {
+    public Response patchDataAboutUser(String accessToken, User user) {
         return given()
                 .spec(spec)
+                .auth().oauth2(accessToken)
                 .body(user)
                 .when()
                 .patch("/auth/user");

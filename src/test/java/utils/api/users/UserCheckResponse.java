@@ -11,6 +11,7 @@ public class UserCheckResponse {
     public void createdUserReturn200(Response createResponse) {
         createResponse.then().assertThat().body("success", equalTo(true))
                 .body("accessToken", notNullValue())
+                .body("refreshToken", notNullValue())
                 .and()
                 .statusCode(200);
     }
@@ -34,5 +35,46 @@ public class UserCheckResponse {
     @Step("Сохранение accessToken пользователя")
     public String saveUserAccessToken(Response createResponse) {
         return createResponse.jsonPath().getString("accessToken").substring(7);
+    }
+
+    @Step("Успешная авторизация пользователя возвращает код ответа 200 OK")
+    public void loginUserReturn200(Response loginResponse) {
+        loginResponse.then().assertThat().body("success", equalTo(true))
+                .body("accessToken", notNullValue())
+                .body("refreshToken", notNullValue())
+                .and()
+                .statusCode(200);
+    }
+
+    @Step("Авторизация с неверным или пустым логином или паролем возвращает код ответа 401 Unauthorized")
+    public void loginUserReturn401(Response loginResponse) {
+        loginResponse.then().assertThat().body("success", equalTo(false))
+                .body("message", equalTo("email or password are incorrect"))
+                .and()
+                .statusCode(401);
+    }
+
+    @Step("Успешное обновление данных авторизованного пользователя возвращает код ответа 200 OK")
+    public void updateUserDataReturn200(Response updateResponse) {
+        updateResponse.then().assertThat().body("success", equalTo(true))
+                .body("user", notNullValue())
+                .and()
+                .statusCode(200);
+    }
+
+    @Step("Обновление данных неавторизованного пользователя возвращает код ответа 401 Unauthorized")
+    public void updateUserDataReturn401(Response updateResponse) {
+        updateResponse.then().assertThat().body("success", equalTo(false))
+                .body("message", equalTo("You should be authorised"))
+                .and()
+                .statusCode(401);
+    }
+
+    @Step("Обновление почты, которая уже используется, у авторизованного пользователя возвращает код ответа 403 Forbidden")
+    public void updateUserEmailReturn403(Response updateResponse) {
+        updateResponse.then().assertThat().body("success", equalTo(false))
+                .body("message", equalTo("User with such email already exists"))
+                .and()
+                .statusCode(403);
     }
 }

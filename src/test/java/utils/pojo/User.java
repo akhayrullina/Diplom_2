@@ -7,15 +7,15 @@ public class User {
     private String password;
     private String name;
 
-    public User(String email, String name, String password) {
+    public User(String email, String password, String name) {
         this.email = email;
-        this.name = name;
         this.password = password;
+        this.name = name;
     }
 
     public static User random() {
         var rnd = LocalDateTime.now().getNano();
-        return new User("test" + rnd + "@gmail.ru", "test" + rnd, "testtest");
+        return new User("test" + rnd + "@gmail.ru", "testtest", "test" + rnd);
     }
 
     public String getEmail() {
