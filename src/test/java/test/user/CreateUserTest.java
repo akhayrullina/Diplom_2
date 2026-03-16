@@ -1,4 +1,4 @@
-package test;
+package test.user;
 
 import io.restassured.response.Response;
 import org.junit.jupiter.api.AfterEach;
@@ -9,8 +9,8 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import utils.api.BaseURL;
-import utils.api.users.UserApi;
-import utils.api.users.UserCheckResponse;
+import utils.api.user.UserApi;
+import utils.api.user.UserCheckResponse;
 import utils.pojo.User;
 import java.util.stream.Stream;
 

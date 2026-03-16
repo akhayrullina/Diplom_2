@@ -1,11 +1,10 @@
-package utils.api.users;
+package utils.api.user;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;;
 import io.restassured.specification.RequestSpecification;
 import utils.pojo.User;
 import utils.pojo.UserCredentials;
-
 import static io.restassured.RestAssured.given;
 
 public class UserApi {
@@ -61,11 +60,10 @@ public class UserApi {
     }
 
     @Step("Получение данных о пользователе")
-    public Response getDataAboutUser(String accessToken, User user) {
+    public Response getDataAboutUser(String accessToken) {
         return given()
                 .spec(spec)
                 .auth().oauth2(accessToken)
-                .body(user)
                 .when()
                 .get("/auth/user");
     }
