@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.user.ChangeUserDataTest" time="15.635" tests="9" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\test-classes;C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\classes;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.1\junit-jupiter-params-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-launcher\1.12.1\junit-platform-launcher-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akhayrullina\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akhayrullina\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akhayrullina\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\akhayrullina\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit5\2.32.0\allure-junit5-2.32.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-rest-assured\2.24.0\allure-rest-assured-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-attachments\2.24.0\allure-attachments-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\akhayrullina\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\akhayrullina\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JDK\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire13914422081176457818\surefirebooter-20260316192133785_3.jar C:\Users\akhayrullina\AppData\Local\Temp\surefire13914422081176457818 2026-03-16T19-21-33_381-jvmRun1 surefire-20260316192133785_1tmp surefire_0-20260316192133785_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\test-classes;C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\classes;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.1\junit-jupiter-params-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-launcher\1.12.1\junit-platform-launcher-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akhayrullina\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akhayrullina\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akhayrullina\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\akhayrullina\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit5\2.32.0\allure-junit5-2.32.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-rest-assured\2.24.0\allure-rest-assured-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-attachments\2.24.0\allure-attachments-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\akhayrullina\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\akhayrullina\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\akhayrullina"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\JDK\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire13914422081176457818\surefirebooter-20260316192133785_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="akhayrullina"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\akhayrullina\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKHAYR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\JDK\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\akhayrullina\bin;C:\Program Files\JDK\jdk-17.0.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\WireGuard;C:\Program Files\Git\cmd;C:\Program Files (x86)\Kaspersky Lab\KES.12.10.0;C:\Program Files\apache-maven-3.9.11\bin;C:\Users\akhayrullina\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Allure\allure-2.22.4\bin;C:\Users\akhayrullina\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="updateUserDataSuccess(User)[1]" classname="test.user.ChangeUserDataTest" time="1.762">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test382373900@gmail.ru",
+    "password": "testtest",
+    "name": "test382373900"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:01 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTI5OTg0MjcwMDAxYmU2YTUyZCIsImlhdCI6MTc3MzY3ODEyMSwiZXhwIjoxNzczNjc5MzIxfQ.DlEnUWPFkd1mfLMzlQTmGkxDsAZvWZbosLlr19caln4
+ETag: W/"176-Gzd3WeSG+jSOKdQblMjH0+S4mGQ"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test382373900@gmail.ru",
+        "name": "test382373900"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTI5OTg0MjcwMDAxYmU2YTUyZCIsImlhdCI6MTc3MzY3ODEyMSwiZXhwIjoxNzczNjc5MzIxfQ.DlEnUWPFkd1mfLMzlQTmGkxDsAZvWZbosLlr19caln4",
+    "refreshToken": "dd08dec39deaca9aa3de52a38a20f0f7de3641c745c815fc6ccfffa60f201846576eb4124434e8da"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "test000test"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:02 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"51-WfQdukV/n8sBPHAmqKhkYuIpGfE"
+Content-Length: 81
+
+{
+    "success": true,
+    "user": {
+        "email": "test382373900@gmail.ru",
+        "name": "test382373900"
+    }
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:03 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserDataSuccess(User)[2]" classname="test.user.ChangeUserDataTest" time="1.699">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test164196700@gmail.ru",
+    "password": "testtest",
+    "name": "test164196700"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:03 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTJiOTg0MjcwMDAxYmU2YTUyZiIsImlhdCI6MTc3MzY3ODEyMywiZXhwIjoxNzczNjc5MzIzfQ.Ipwv9__ed_0m6y2cf3bVk44Vx27d6BJ1E-d_w9xlwRY
+ETag: W/"176-RTtSdkBPHrJp82SjqTB+QYDt42g"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test164196700@gmail.ru",
+        "name": "test164196700"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTJiOTg0MjcwMDAxYmU2YTUyZiIsImlhdCI6MTc3MzY3ODEyMywiZXhwIjoxNzczNjc5MzIzfQ.Ipwv9__ed_0m6y2cf3bVk44Vx27d6BJ1E-d_w9xlwRY",
+    "refreshToken": "f742e1d6181da3f3d79d1edc4b99e1b9ed1141216653236163c2207bde5d3d4c855ede3a62ecc9c2"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test000@mail.ru"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:03 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"4a-IUv/T+o6IKX89kZQx5drl3qEFjQ"
+Content-Length: 74
+
+{
+    "success": true,
+    "user": {
+        "email": "test000@mail.ru",
+        "name": "test164196700"
+    }
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:04 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserDataSuccess(User)[3]" classname="test.user.ChangeUserDataTest" time="1.696">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test870807600@gmail.ru",
+    "password": "testtest",
+    "name": "test870807600"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:05 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTJkOTg0MjcwMDAxYmU2YTUzMSIsImlhdCI6MTc3MzY3ODEyNSwiZXhwIjoxNzczNjc5MzI1fQ.D04b5yT0hNr2FZ2rzcYU5iw8RvCV-w8wYBTcQNrTMb8
+ETag: W/"176-Kkb+92qaaQoz4Eis+kngEJj2PAw"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test870807600@gmail.ru",
+        "name": "test870807600"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTJkOTg0MjcwMDAxYmU2YTUzMSIsImlhdCI6MTc3MzY3ODEyNSwiZXhwIjoxNzczNjc5MzI1fQ.D04b5yT0hNr2FZ2rzcYU5iw8RvCV-w8wYBTcQNrTMb8",
+    "refreshToken": "4e91438a54205f60a58209f946eb9738ccec3834e7a3bcf90a8d8e740afc4ea362fea534fd2f7f4e"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "testUser0000"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:05 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"50-0DsvvhbiGhU9K/sT56eC0+nD7oM"
+Content-Length: 80
+
+{
+    "success": true,
+    "user": {
+        "email": "test870807600@gmail.ru",
+        "name": "testUser0000"
+    }
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:06 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserDataSuccess(User)[4]" classname="test.user.ChangeUserDataTest" time="1.775">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test578873700@gmail.ru",
+    "password": "testtest",
+    "name": "test578873700"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:06 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTJlOTg0MjcwMDAxYmU2YTUzMyIsImlhdCI6MTc3MzY3ODEyNiwiZXhwIjoxNzczNjc5MzI2fQ.3y-CKlN1qTcGg8yaEtJsXt27e7ZxklAARC2YAD8G-tU
+ETag: W/"176-FdmeX4q+H/GNwKD0S1q1ro33GgY"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test578873700@gmail.ru",
+        "name": "test578873700"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTJlOTg0MjcwMDAxYmU2YTUzMyIsImlhdCI6MTc3MzY3ODEyNiwiZXhwIjoxNzczNjc5MzI2fQ.3y-CKlN1qTcGg8yaEtJsXt27e7ZxklAARC2YAD8G-tU",
+    "refreshToken": "d0dbd0d05c5e5a018bf6b64a2e833381acc590bd7ae67c39b6d5bfde58dbb17801e8a0c16afd0048"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test362354400@gmail.ru",
+    "password": "testtest",
+    "name": "test362354400"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:07 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"51-O+vlJWBAu5JGwJoh4G8TTu5dF44"
+Content-Length: 81
+
+{
+    "success": true,
+    "user": {
+        "email": "test362354400@gmail.ru",
+        "name": "test362354400"
+    }
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:08 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserEmailError" classname="test.user.ChangeUserDataTest" time="1.796">
+    <failure message="1 expectation failed.&#10;JSON path success doesn&apos;t match.&#10;Expected: &lt;false&gt;&#10;  Actual: &lt;true&gt;&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+JSON path success doesn't match.
+Expected: <false>
+  Actual: <true>
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:58)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor169.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at utils.api.user.UserCheckResponse.updateUserEmailReturn403(UserCheckResponse.java:75)
+	at test.user.ChangeUserDataTest.updateUserEmailError(ChangeUserDataTest.java:60)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test369115700@gmail.ru",
+    "password": "testtest",
+    "name": "test369115700"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:08 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTMwOTg0MjcwMDAxYmU2YTUzNSIsImlhdCI6MTc3MzY3ODEyOCwiZXhwIjoxNzczNjc5MzI4fQ.57Gd-nLV2Hxqdm3M-wKyBM67ePqcq99VPh8bPQUIGAs
+ETag: W/"176-I7HRs7XGFqjkP049Dv6s9GYHzcg"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test369115700@gmail.ru",
+        "name": "test369115700"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTMwOTg0MjcwMDAxYmU2YTUzNSIsImlhdCI6MTc3MzY3ODEyOCwiZXhwIjoxNzczNjc5MzI4fQ.57Gd-nLV2Hxqdm3M-wKyBM67ePqcq99VPh8bPQUIGAs",
+    "refreshToken": "9217e7bfa76ef05a4f4aceab10c8c66677c1947f6a8c3e392a2729ba9d9b4218811239c38cbfb896"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test369115700@gmail.ru",
+    "password": "testtest",
+    "name": "test369115700"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:09 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"51-rxhNtYR/e05xDAswV59F3zSxTd4"
+Content-Length: 81
+
+{
+    "success": true,
+    "user": {
+        "email": "test369115700@gmail.ru",
+        "name": "test369115700"
+    }
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:10 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserDataError(User)[1]" classname="test.user.ChangeUserDataTest" time="1.745">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test182286400@gmail.ru",
+    "password": "testtest",
+    "name": "test182286400"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:10 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTMyOTg0MjcwMDAxYmU2YTUzNyIsImlhdCI6MTc3MzY3ODEzMCwiZXhwIjoxNzczNjc5MzMwfQ.jDWkjL2TfVNfJekOD_qd5si37jzyQa-t_qwvw4Wud3o
+ETag: W/"176-fZjLv0qZojFJNBcuC6ZUDqLDaK8"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test182286400@gmail.ru",
+        "name": "test182286400"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTMyOTg0MjcwMDAxYmU2YTUzNyIsImlhdCI6MTc3MzY3ODEzMCwiZXhwIjoxNzczNjc5MzMwfQ.jDWkjL2TfVNfJekOD_qd5si37jzyQa-t_qwvw4Wud3o",
+    "refreshToken": "e9e7ce44c4d0cb10be95072fc5b34f11aa5c0d9f3cedd31f64aa0b31df28a5c90e055b15c1a54535"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "test000test"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:10 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+Content-Length: 54
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:11 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserDataError(User)[2]" classname="test.user.ChangeUserDataTest" time="1.666">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test941036800@gmail.ru",
+    "password": "testtest",
+    "name": "test941036800"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:12 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM0OTg0MjcwMDAxYmU2YTUzOSIsImlhdCI6MTc3MzY3ODEzMiwiZXhwIjoxNzczNjc5MzMyfQ.NKzwHfWXm0MF76HoUqLWg87CxsyUdLOjnAnEfv1duWc
+ETag: W/"176-95wNlFksgXbvUSrOyBBvHATA+y4"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test941036800@gmail.ru",
+        "name": "test941036800"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM0OTg0MjcwMDAxYmU2YTUzOSIsImlhdCI6MTc3MzY3ODEzMiwiZXhwIjoxNzczNjc5MzMyfQ.NKzwHfWXm0MF76HoUqLWg87CxsyUdLOjnAnEfv1duWc",
+    "refreshToken": "00736729ba8dddd328ac1363135c96eafca6291f6050a48cedd3f10cf672ae544c7f799f64534219"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test000@mail.ru"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:12 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+Content-Length: 54
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:13 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserDataError(User)[3]" classname="test.user.ChangeUserDataTest" time="1.642">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test613735900@gmail.ru",
+    "password": "testtest",
+    "name": "test613735900"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:13 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM1OTg0MjcwMDAxYmU2YTUzYiIsImlhdCI6MTc3MzY3ODEzMywiZXhwIjoxNzczNjc5MzMzfQ.NGUX4dHGP7b8bidvLorIiwSVc70wYg4Zc0Sc4LTWJoc
+ETag: W/"176-7S5aaE3qeEGCsO51iefBzjZd5yE"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test613735900@gmail.ru",
+        "name": "test613735900"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM1OTg0MjcwMDAxYmU2YTUzYiIsImlhdCI6MTc3MzY3ODEzMywiZXhwIjoxNzczNjc5MzMzfQ.NGUX4dHGP7b8bidvLorIiwSVc70wYg4Zc0Sc4LTWJoc",
+    "refreshToken": "9318c9afb4d20173897f0258e7509293ac30ae0a4827372ac1797ec97dfcdfe95446b75bcfb29285"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "testUser0000"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:14 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+Content-Length: 54
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:15 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateUserDataError(User)[4]" classname="test.user.ChangeUserDataTest" time="1.66">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test263113500@gmail.ru",
+    "password": "testtest",
+    "name": "test263113500"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:15 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM3OTg0MjcwMDAxYmU2YTUzZCIsImlhdCI6MTc3MzY3ODEzNSwiZXhwIjoxNzczNjc5MzM1fQ.y5sSIN_uuarlXF41FF67HCz3dLjZHRsiN5xhxH2qC4g
+ETag: W/"176-w2xg9LJqDLgmEVP9pwzTgwQH6sk"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test263113500@gmail.ru",
+        "name": "test263113500"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM3OTg0MjcwMDAxYmU2YTUzZCIsImlhdCI6MTc3MzY3ODEzNSwiZXhwIjoxNzczNjc5MzM1fQ.y5sSIN_uuarlXF41FF67HCz3dLjZHRsiN5xhxH2qC4g",
+    "refreshToken": "b771c2787d186d5656b4696b3d66afe0034e486a0de347f549cf1c4b881b6d1db59b4a2702e2a091"
+}
+Request method:	PATCH
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test178299700@gmail.ru",
+    "password": "testtest",
+    "name": "test178299700"
+}
+HTTP/1.1 401 Unauthorized
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:15 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-9ndkQYJpZ8s0sMN790Nuh0MLq/U"
+Content-Length: 54
+
+{
+    "success": false,
+    "message": "You should be authorised"
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Mon, 16 Mar 2026 16:22:16 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
