@@ -44,7 +44,7 @@ public class CreateUserTest extends BaseURL {
     @Test
     @DisplayName("Проверка создания уникального пользователя")
     public void createUniqueUser() {
-        user = user.random();
+        user = User.random();
         Response createResponse = userApi.createUser(user);
         accessToken = checkResponse.saveUserAccessToken(createResponse);
         checkResponse.createdUserReturn200(createResponse);
@@ -53,7 +53,7 @@ public class CreateUserTest extends BaseURL {
     @Test
     @DisplayName("Проверка создания пользователя, который уже зарегистрирован")
     public void createDuplicateUser() {
-        user = user.random();
+        user = User.random();
         Response createResponse = userApi.createUser(user);
         accessToken = checkResponse.saveUserAccessToken(createResponse);
 

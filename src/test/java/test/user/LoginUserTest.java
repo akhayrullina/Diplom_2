@@ -35,7 +35,7 @@ public class LoginUserTest extends BaseURL {
     public void init() {
         userApi = new UserApi(setUp());
         checkResponse = new UserCheckResponse();
-        user = user.random();
+        user = User.random();
         Response createResponse = userApi.createUser(user);
         accessToken = checkResponse.saveUserAccessToken(createResponse);
     }

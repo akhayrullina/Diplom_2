@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.user.CreateUserTest" time="4.239" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.user.CreateUserTest" time="4.282" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\JDK\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire13914422081176457818\surefirebooter-20260316192133785_3.jar C:\Users\akhayrullina\AppData\Local\Temp\surefire13914422081176457818 2026-03-16T19-21-33_381-jvmRun1 surefire-20260316192133785_1tmp surefire_0-20260316192133785_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire4292431496521164825\surefirebooter-20260325184853174_3.jar C:\Users\akhayrullina\AppData\Local\Temp\surefire4292431496521164825 2026-03-25T18-48-52_883-jvmRun1 surefire-20260325184853174_1tmp surefire_0-20260325184853174_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\test-classes;C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\classes;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.1\junit-jupiter-params-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-launcher\1.12.1\junit-platform-launcher-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akhayrullina\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akhayrullina\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akhayrullina\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\akhayrullina\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit5\2.32.0\allure-junit5-2.32.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-rest-assured\2.24.0\allure-rest-assured-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-attachments\2.24.0\allure-attachments-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\akhayrullina\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\akhayrullina\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;"/>
     <property name="allure.results.directory" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target/allure-results"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire13914422081176457818\surefirebooter-20260316192133785_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire4292431496521164825\surefirebooter-20260325184853174_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -57,7 +57,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="createUniqueUser" classname="test.user.CreateUserTest" time="1.366">
+  <testcase name="createUniqueUser" classname="test.user.CreateUserTest" time="1.445">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.education-services.ru/api/auth/register
 Proxy:			<none>
@@ -71,29 +71,29 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "test941081900@gmail.ru",
+    "email": "test339304000@gmail.ru",
     "password": "testtest",
-    "name": "test941081900"
+    "name": "test339304000"
 }
 HTTP/1.1 200 OK
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:17 GMT
+Date: Wed, 25 Mar 2026 15:49:36 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM5OTg0MjcwMDAxYmU2YTUzZiIsImlhdCI6MTc3MzY3ODEzNywiZXhwIjoxNzczNjc5MzM3fQ.QD_KR8zZrkE1zaagxnqVFRP_w38GjsPKxAjeD6ENzV0
-ETag: W/"176-uzUKIBXqKq14sty8ZfH5JwW27vM"
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEwOTg0MjcwMDAxYmU3M2RkNCIsImlhdCI6MTc3NDQ1Mzc3NiwiZXhwIjoxNzc0NDU0OTc2fQ.VmWoAgZJ0CE0o9zo9aP18TtXDSN3YXabC9fHk01jIWw
+ETag: W/"176-EpPoMXStTwwwJnZi4FUQHqFZMn0"
 Content-Length: 374
 
 {
     "success": true,
     "user": {
-        "email": "test941081900@gmail.ru",
-        "name": "test941081900"
+        "email": "test339304000@gmail.ru",
+        "name": "test339304000"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTM5OTg0MjcwMDAxYmU2YTUzZiIsImlhdCI6MTc3MzY3ODEzNywiZXhwIjoxNzczNjc5MzM3fQ.QD_KR8zZrkE1zaagxnqVFRP_w38GjsPKxAjeD6ENzV0",
-    "refreshToken": "fc26c40062286178620e02a3dd1bd377b09bfe02618af020806a7e33e627439d8e72b87814d6b2cc"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEwOTg0MjcwMDAxYmU3M2RkNCIsImlhdCI6MTc3NDQ1Mzc3NiwiZXhwIjoxNzc0NDU0OTc2fQ.VmWoAgZJ0CE0o9zo9aP18TtXDSN3YXabC9fHk01jIWw",
+    "refreshToken": "018d044f7fb1d31c9de635877e15e8545fc14460fa2661bf0bfb8bdc2430f68af54bf1e3cd0b6922"
 }
 Request method:	DELETE
 Request URI:	https://stellarburgers.education-services.ru/api/auth/user
@@ -109,7 +109,7 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 202 Accepted
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:18 GMT
+Date: Wed, 25 Mar 2026 15:49:37 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
@@ -123,7 +123,7 @@ Content-Length: 54
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createDuplicateUser" classname="test.user.CreateUserTest" time="1.753">
+  <testcase name="createDuplicateUser" classname="test.user.CreateUserTest" time="1.698">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.education-services.ru/api/auth/register
 Proxy:			<none>
@@ -137,29 +137,29 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "test315449500@gmail.ru",
+    "email": "test794115800@gmail.ru",
     "password": "testtest",
-    "name": "test315449500"
+    "name": "test794115800"
 }
 HTTP/1.1 200 OK
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:18 GMT
+Date: Wed, 25 Mar 2026 15:49:38 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTNhOTg0MjcwMDAxYmU2YTU0MSIsImlhdCI6MTc3MzY3ODEzOCwiZXhwIjoxNzczNjc5MzM4fQ.6A_bggoCWxLUleTAsjWL4DQPqxVpAG8jJCQxLQ5catA
-ETag: W/"176-h+oBEfE3UZhMzARfZW39cttuAjY"
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEyOTg0MjcwMDAxYmU3M2RkNiIsImlhdCI6MTc3NDQ1Mzc3OCwiZXhwIjoxNzc0NDU0OTc4fQ.WpcaPCzq_9UJiMjiqehRafqyAfb4Ujm5Omb0U24ifGs
+ETag: W/"176-KOglZZ8IDrTh4qvvBTczYwLbXb8"
 Content-Length: 374
 
 {
     "success": true,
     "user": {
-        "email": "test315449500@gmail.ru",
-        "name": "test315449500"
+        "email": "test794115800@gmail.ru",
+        "name": "test794115800"
     },
-    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjgyZTNhOTg0MjcwMDAxYmU2YTU0MSIsImlhdCI6MTc3MzY3ODEzOCwiZXhwIjoxNzczNjc5MzM4fQ.6A_bggoCWxLUleTAsjWL4DQPqxVpAG8jJCQxLQ5catA",
-    "refreshToken": "f6ffae3aa348fc55e59b132a7d1ddc5744e11103c79014130bbc457de4de3d2b2e4cec5ec20cce39"
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEyOTg0MjcwMDAxYmU3M2RkNiIsImlhdCI6MTc3NDQ1Mzc3OCwiZXhwIjoxNzc0NDU0OTc4fQ.WpcaPCzq_9UJiMjiqehRafqyAfb4Ujm5Omb0U24ifGs",
+    "refreshToken": "69adf4faae269be616d8236d794d6f9222aaba825dd561a39deb4b1364f3c7dd95edcc899feb3509"
 }
 Request method:	POST
 Request URI:	https://stellarburgers.education-services.ru/api/auth/register
@@ -174,13 +174,13 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "test315449500@gmail.ru",
+    "email": "test794115800@gmail.ru",
     "password": "testtest",
-    "name": "test315449500"
+    "name": "test794115800"
 }
 HTTP/1.1 403 Forbidden
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:19 GMT
+Date: Wed, 25 Mar 2026 15:49:38 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
@@ -206,7 +206,7 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 202 Accepted
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:20 GMT
+Date: Wed, 25 Mar 2026 15:49:39 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
@@ -220,7 +220,7 @@ Content-Length: 54
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createUserWithoutRequiredFields(User)[1]" classname="test.user.CreateUserTest" time="0.354">
+  <testcase name="createUserWithoutRequiredFields(User)[1]" classname="test.user.CreateUserTest" time="0.366">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.education-services.ru/api/auth/register
 Proxy:			<none>
@@ -240,7 +240,7 @@ Body:
 }
 HTTP/1.1 403 Forbidden
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:20 GMT
+Date: Wed, 25 Mar 2026 15:49:39 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
@@ -254,7 +254,7 @@ Content-Length: 74
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createUserWithoutRequiredFields(User)[2]" classname="test.user.CreateUserTest" time="0.359">
+  <testcase name="createUserWithoutRequiredFields(User)[2]" classname="test.user.CreateUserTest" time="0.386">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.education-services.ru/api/auth/register
 Proxy:			<none>
@@ -274,7 +274,7 @@ Body:
 }
 HTTP/1.1 403 Forbidden
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:20 GMT
+Date: Wed, 25 Mar 2026 15:49:40 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
@@ -288,7 +288,7 @@ Content-Length: 74
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createUserWithoutRequiredFields(User)[3]" classname="test.user.CreateUserTest" time="0.358">
+  <testcase name="createUserWithoutRequiredFields(User)[3]" classname="test.user.CreateUserTest" time="0.339">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://stellarburgers.education-services.ru/api/auth/register
 Proxy:			<none>
@@ -308,7 +308,7 @@ Body:
 }
 HTTP/1.1 403 Forbidden
 Server: nginx/1.24.0 (Ubuntu)
-Date: Mon, 16 Mar 2026 16:22:21 GMT
+Date: Wed, 25 Mar 2026 15:49:40 GMT
 Content-Type: application/json; charset=utf-8
 Connection: keep-alive
 X-Powered-By: Express
