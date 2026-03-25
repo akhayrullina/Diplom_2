@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.user.CreateUserTest" time="4.282" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\test-classes;C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\classes;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.1\junit-jupiter-params-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-launcher\1.12.1\junit-platform-launcher-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akhayrullina\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akhayrullina\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akhayrullina\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\akhayrullina\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit5\2.32.0\allure-junit5-2.32.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-rest-assured\2.24.0\allure-rest-assured-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-attachments\2.24.0\allure-attachments-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\akhayrullina\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\akhayrullina\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JDK\jdk-17.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire4292431496521164825\surefirebooter-20260325184853174_3.jar C:\Users\akhayrullina\AppData\Local\Temp\surefire4292431496521164825 2026-03-25T18-48-52_883-jvmRun1 surefire-20260325184853174_1tmp surefire_0-20260325184853174_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\test-classes;C:\Users\akhayrullina\IdeaProjects\Diplom_2\target\classes;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.1\junit-jupiter-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.12.1\junit-jupiter-api-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-commons\1.12.1\junit-platform-commons-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.1\junit-jupiter-params-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.12.1\junit-jupiter-engine-5.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-launcher\1.12.1\junit-platform-launcher-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\junit\platform\junit-platform-engine\1.12.1\junit-platform-engine-1.12.1.jar;C:\Users\akhayrullina\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akhayrullina\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akhayrullina\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akhayrullina\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akhayrullina\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\akhayrullina\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\akhayrullina\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\akhayrullina\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit5\2.32.0\allure-junit5-2.32.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-junit-platform\2.24.0\allure-junit-platform-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-rest-assured\2.24.0\allure-rest-assured-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\io\qameta\allure\allure-attachments\2.24.0\allure-attachments-2.24.0.jar;C:\Users\akhayrullina\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\akhayrullina\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\akhayrullina\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\akhayrullina"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\JDK\jdk-17.0.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\akhayrullina\AppData\Local\Temp\surefire4292431496521164825\surefirebooter-20260325184853174_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="akhayrullina"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\akhayrullina\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AKHAYR~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\akhayrullina\IdeaProjects\Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\JDK\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\akhayrullina\bin;C:\Program Files\JDK\jdk-17.0.5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\WireGuard;C:\Program Files\Git\cmd;C:\Program Files (x86)\Kaspersky Lab\KES.12.10.0;C:\Program Files\apache-maven-3.9.11\bin;C:\Users\akhayrullina\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Allure\allure-2.22.4\bin;C:\Users\akhayrullina\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="createUniqueUser" classname="test.user.CreateUserTest" time="1.445">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test339304000@gmail.ru",
+    "password": "testtest",
+    "name": "test339304000"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:36 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEwOTg0MjcwMDAxYmU3M2RkNCIsImlhdCI6MTc3NDQ1Mzc3NiwiZXhwIjoxNzc0NDU0OTc2fQ.VmWoAgZJ0CE0o9zo9aP18TtXDSN3YXabC9fHk01jIWw
+ETag: W/"176-EpPoMXStTwwwJnZi4FUQHqFZMn0"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test339304000@gmail.ru",
+        "name": "test339304000"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEwOTg0MjcwMDAxYmU3M2RkNCIsImlhdCI6MTc3NDQ1Mzc3NiwiZXhwIjoxNzc0NDU0OTc2fQ.VmWoAgZJ0CE0o9zo9aP18TtXDSN3YXabC9fHk01jIWw",
+    "refreshToken": "018d044f7fb1d31c9de635877e15e8545fc14460fa2661bf0bfb8bdc2430f68af54bf1e3cd0b6922"
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:37 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createDuplicateUser" classname="test.user.CreateUserTest" time="1.698">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test794115800@gmail.ru",
+    "password": "testtest",
+    "name": "test794115800"
+}
+HTTP/1.1 200 OK
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:38 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEyOTg0MjcwMDAxYmU3M2RkNiIsImlhdCI6MTc3NDQ1Mzc3OCwiZXhwIjoxNzc0NDU0OTc4fQ.WpcaPCzq_9UJiMjiqehRafqyAfb4Ujm5Omb0U24ifGs
+ETag: W/"176-KOglZZ8IDrTh4qvvBTczYwLbXb8"
+Content-Length: 374
+
+{
+    "success": true,
+    "user": {
+        "email": "test794115800@gmail.ru",
+        "name": "test794115800"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzQwNDEyOTg0MjcwMDAxYmU3M2RkNiIsImlhdCI6MTc3NDQ1Mzc3OCwiZXhwIjoxNzc0NDU0OTc4fQ.WpcaPCzq_9UJiMjiqehRafqyAfb4Ujm5Omb0U24ifGs",
+    "refreshToken": "69adf4faae269be616d8236d794d6f9222aaba825dd561a39deb4b1364f3c7dd95edcc899feb3509"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test794115800@gmail.ru",
+    "password": "testtest",
+    "name": "test794115800"
+}
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:38 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"31-WKEMg8zALB1Ko0WjUHi/6RBGHVc"
+Content-Length: 49
+
+{
+    "success": false,
+    "message": "User already exists"
+}
+Request method:	DELETE
+Request URI:	https://stellarburgers.education-services.ru/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:39 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+Content-Length: 54
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserWithoutRequiredFields(User)[1]" classname="test.user.CreateUserTest" time="0.366">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "",
+    "password": "testtest",
+    "name": "test1"
+}
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:39 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"4a-EmWdisR78lCFKIQWVZ3yQkk5Ixs"
+Content-Length: 74
+
+{
+    "success": false,
+    "message": "Email, password and name are required fields"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserWithoutRequiredFields(User)[2]" classname="test.user.CreateUserTest" time="0.386">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test123@mail.ru",
+    "password": "testtest",
+    "name": ""
+}
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:40 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"4a-EmWdisR78lCFKIQWVZ3yQkk5Ixs"
+Content-Length: 74
+
+{
+    "success": false,
+    "message": "Email, password and name are required fields"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUserWithoutRequiredFields(User)[3]" classname="test.user.CreateUserTest" time="0.339">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.education-services.ru/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "test456@mail.ru",
+    "password": "",
+    "name": "testUser"
+}
+HTTP/1.1 403 Forbidden
+Server: nginx/1.24.0 (Ubuntu)
+Date: Wed, 25 Mar 2026 15:49:40 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"4a-EmWdisR78lCFKIQWVZ3yQkk5Ixs"
+Content-Length: 74
+
+{
+    "success": false,
+    "message": "Email, password and name are required fields"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

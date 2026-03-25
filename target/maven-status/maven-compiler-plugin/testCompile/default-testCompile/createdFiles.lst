@@ -1,0 +1,12 @@
+utils\api\user\UserApi.class
+utils\api\order\OrderApi.class
+utils\pojo\User.class
+test\order\CreateOrderTest.class
+test\user\LoginUserTest.class
+utils\api\BaseURL.class
+test\order\GetOrdersFromUser.class
+test\user\CreateUserTest.class
+utils\api\user\UserCheckResponse.class
+test\user\ChangeUserDataTest.class
+utils\api\order\OrderCheckResponse.class
+utils\pojo\UserCredentials.class
